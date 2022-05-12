@@ -1,4 +1,4 @@
-package org.hcl.springbootlab.data.domain;
+package org.hcl.springbootlab.data.repositories;
 
 import org.hcl.springbootlab.config.testes.BaseJpaTest;
 import org.hcl.springbootlab.data.domain.Pessoa;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Assert;
 
 //TODO: Verificar pq os testes dessa classe não são executados durante o 'mvn pacakge ou mvn test'.
-public class PessoaRepositoryTeste extends BaseJpaTest {
+public class PessoaRepositoryTest extends BaseJpaTest {
 	
 	@Autowired
 	PessoaRepository pessoaRepository;
